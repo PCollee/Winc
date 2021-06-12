@@ -73,11 +73,10 @@ const catBreeds = [{
     }
 }
 ]
-let last = catBreeds[temperament.length - 1]
-
 console.log("Resultaat:", catBreeds[2].name);
 console.log("Resultaat:", catBreeds[0].energy_level);
 console.log("Resultaat:", catBreeds[1].temperament[0]);
-console.log("Resultaat:", catBreeds[2].last);
 
-
+const lengthTemperamentsCatThree = catBreeds[2].temperament.length;
+console.log("Resultaat:", catBreeds[2].temperament[lengthTemperamentsCatThree - 1]);
+console.log("Resultaat:", catBreeds[2].food.favourite_food);
